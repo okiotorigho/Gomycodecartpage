@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    font-family: system-ui, sans-serif;
+  }
+  header {
+    padding: 24px;
+    background-color: whitesmoke;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+    outline: 2px solid darkgray;
+    border-radius: 16px;
+  }
+  button {
+    min-width: 40px;
+    padding: 8px;
+    background-color: black;
+    font-family: inherit;
+    color: whitesmoke;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+  }
+  button:focus {
+    outline: 2px solid black;
+    outline-offset: 2px;
+  }
+  
+  footer {
+    margin-left: auto;
+  }
+  
+  .total {
+    font-size: 48px;
+  }
+  .large-font{
+    font-size:xxx-large;
+  }
+  .top-20{
+    position:relative;
+    top:20vh;
+  }
+  
